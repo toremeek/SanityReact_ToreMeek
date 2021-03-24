@@ -3,10 +3,13 @@ import styled from "styled-components";
 const HeroText = styled.div`
 text-align: center;
 position: absolute;
-
 top: 70%;
 left: 50%;
 transform: translate(-50%, -50%);
+
+h1{
+    font-size: 5rem;
+    }
 `
 
 
