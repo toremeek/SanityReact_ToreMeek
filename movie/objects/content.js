@@ -1,7 +1,7 @@
 const content = {
-    name:"content",
-    title:"innhold",
-    type:"array",
+    name: "content",
+    title: "innhold",
+    type: "array",
     of: [{type: "block"}]
 };
 
