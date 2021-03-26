@@ -11,10 +11,7 @@ h1{
     font-size: 5rem;
     }
 `
-
-
 const Header = ({url, head}) => {
-
 const HeroImage = styled.div`
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${url});
 height: 380px;

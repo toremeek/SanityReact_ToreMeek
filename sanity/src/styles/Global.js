@@ -129,7 +129,7 @@ a {
   text-align: left;
   background-color: rgb(255, 255, 255);
   color: black;
-  max-width: 60%;
+  max-width: 800px;
   max-height: calc(100vh - 210px);
   overflow-y: auto;
   padding: 40px;
@@ -137,7 +137,7 @@ a {
 
 .modal-poster {
   float: right;
-  width: 30%;
+  max-width: 33%;
   padding: 20px 0px 20px 30px;
 }
 
