@@ -36,8 +36,8 @@ const Movies = ({ loading, sort, error, search, data }) => {
       <p>
         Sorter resultatet etter:
         <select className="select" onChange={(e) => sort(e.target.value)}>
-          <option value="alfabetisk">Alfabetisk</option>
-          <option value="utgitt">Utgitt</option>
+          <option value="year">År utgitt</option>
+          <option value="title">Alfabetisk</option>
         </select>
       </p>
 

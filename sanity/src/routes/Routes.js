@@ -23,7 +23,6 @@ const Routes = () => (
     <Route exact path="*">
         <NoMatch />
     </Route>
-
     </Switch>
   </Router>
 );
